@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body,td,th {
+    color: lime;
+}
+body {
+    background-color: black;
+}
+

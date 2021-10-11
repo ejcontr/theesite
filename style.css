@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+	background-color: black;
+}
+
+h1 {
+	color: lime;
+}
+
+h2 {
+	color: lime;
+	animation-name: fade-in;
+	animation-duration: 10s;
+  	animation-iteration-count: 1;
+}
+
+h3 {
+	color: lime;
+	animation-name: fade-in;
+	animation-duration: 10s;
+  	animation-iteration-count: 1;}
+
+@keyframes fade-in {
+	0% {opacity: 0}
+	50% {opacity: 50}
+	100% {opacity: 100}
+}
+
+p1 {
+	color: lime;
+}

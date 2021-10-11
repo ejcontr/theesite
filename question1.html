@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Question 1</title>
+<link href="styl.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+    color: lime;
+}
+</style>
+</head>
+
+<body>
+<p>Question 1:</p>
+<p>Which do you feel more comfortable around?</p>
+<form>
+	<input type="radio" id="dog" value="dog" onclick="next();">
+	<label for="html">Dog</label><br>
+	<input type="radio" id="bear" value="bear" onclick="next();">
+	<label for="html">Bear</label><br>
+	<input type="radio" id="cat" value="cat" onclick="next();">
+	<label for="html">Cat</label><br>
+	<input type="radio" id="person" value="person" onclick="next();">
+	<label for="html">Person</label><br>
+</form>
+	
+<script>
+	function next() {
+		document.location.href="question2.html";
+	}
+	</script>
+	
+</body>
+</html>

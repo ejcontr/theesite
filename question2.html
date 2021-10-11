@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Question 2</title>
+<link href="stylesq2.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<p>Question 2:</p>
+<p>How safe Do You Feel Right Now?</p>
+<form>
+  <input type="radio" id="Not" value="Not" onclick="setTimeout( next, 3000);">
+	<label for="html">Not at all</label><br>
+  <input type="radio" class = "little" id="little" value="little" onclick="setTimeout( next, 3000);">
+	<label for="html">A little</label><br>
+  <input type="radio" class = "safe" id="Safe" value="Safe" onclick="setTimeout( next, 3000);">
+	<label for="html">Safe</label><br>
+  <input type="radio" style="color: red" id="Very" value="Very" onclick="setTimeout( next, 3000);">
+	<label for="html">Very Safe</label><br>
+</form>
+<audio id="knock" preload="auto" autoplay="autoplay" >
+  <source src="Audio/bangingOnWall.mp3" type="audio/mp3">
+</audio>
+<script>
+	 function next() {
+		document.location.href="question3.html";
+	}
+	
+    function pl(){
+		document.getElementById("knock").play();
+	}
+    
+    setTimeout(pl, 2000)
+    </script>
+	
+</body>
+
+</html>

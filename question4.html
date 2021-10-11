@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="stylesq4.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <p>Question 4:</p>
+<p>Do you believe in ghosts?</p>
+<form>
+  <input type="radio" id="Yes" value="Yes" onclick="next();">
+	<label for="html">Yes</label><br>
+  <input type="radio" id="No" value="No" onclick="next();">
+	<label for="html">No</label><br>
+  <input type="radio" id="Unsure" value="Unsure" onclick="next();">
+	<label for="html">Unsure</label><br>
+</form>
+<audio autoplay="autoplay" >
+  <source src="Audio/eerie.mp3" type="audio/mp3">
+</audio>
+<script>
+	function next() {
+		document.location.href="jump.html";
+	}
+	</script>
+</body>
+</html>

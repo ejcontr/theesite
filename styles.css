@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body {
+	background-color: black
+}
+
+h1 {
+	color: lime
+}
+
+form {
+	color: lime
+}
+
+p1 {
+	color: lime
+}
+
+.eyes {
+    position: absolute; left: 300px; top: 50px;
+    opacity: .7;
+}
